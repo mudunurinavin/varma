@@ -14,4 +14,7 @@ sh "echo deploy"
 
 stage 'execute ansible'
 sh "echo ansible"
+  
+stage 'approval'
+input 'Do you want to proceed'
 }
